@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0 ;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar p {
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+}
+
+.navbar ul {
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 70px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(118, 77, 231);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 500;
+} 
+
+.left-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.left-box img {
+    margin-right: 10px;
+    width: 60px;
+}
+
+.topbar {
+    padding-top: 35px;
+}
+
+.background {
+    background-color: rgb(235, 232, 232);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(7, 7, 7);
+    height: 80px;
+    padding-top: 30px;
+    color: white;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.computational p {
+    font-size: 15px;
+    font-style: italic;
+    color:blue;
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.computational {
+    width: 600px;
+    height: 100%;
+}
+
+.computational img {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.article {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.facts p {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.paragraph {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.paragraph p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-color: rgb(106, 106, 224);
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 18px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between
+}
+
+.fb-icon, .ig-icon, .twitter-icon {
+    display: flex;
+    width: 48px;
+}
+
+.fb-icon:hover, .ig-icon:hover, .twitter-icon:hover {
+    opacity: 0.7;
+}
+
+.references p{
+    font-size: 15px;
+}
+
+.italic {
+    font-style: italic;
+}
